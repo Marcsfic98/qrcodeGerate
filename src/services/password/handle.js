@@ -19,6 +19,7 @@ async function permittedCharacters() {
 
     if(process.env.SPECIAL_CHARACTERS === "true"){
         permitted.push(..."@#!$%&*_-");
+        
     };
 
     return permitted
