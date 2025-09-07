@@ -13,5 +13,6 @@ async function handle(err,result) {
             console.log(qrcode)
         })
     }
+    
 
     export default handle
